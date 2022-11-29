@@ -6,7 +6,7 @@ list_numbers = []
 n = abs(int(input("Введите число N: ")))
 for k in range(-n, n+1):
     list_numbers.append(k)
-print("Набор произведений чисел от 1 до ", n, " в виде списка:")
+print("Список чисел из диапазона [",-n, ",",n,"]:")
 print(list_numbers)
 
 
