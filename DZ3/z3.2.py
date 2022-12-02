@@ -16,10 +16,12 @@
 
 from random import choices, randint
 
-def genetate_list(count):
+
+def generate_list(count):
     list_numbers = choices(range(1, count*randint(1, count)), k=count)
     print(list_numbers)
     return list_numbers
+
 
 def multiply_pairs(list_numbers):
     list_pair_of_numbers = []
@@ -32,4 +34,5 @@ def multiply_pairs(list_numbers):
     return list_pair_of_numbers
 
 
-print(multiply_pairs(genetate_list(int(input("Введите количество элементов списка: ")))))
+print(multiply_pairs(generate_list(
+    int(input("Введите количество элементов списка: ")))))
