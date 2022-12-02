@@ -17,3 +17,4 @@ while num_new != 0:
     sum += num_new % 10
     num_new //= 10
 print(sum)
+
