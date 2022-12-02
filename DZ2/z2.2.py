@@ -10,3 +10,4 @@ for k in range(1, n+1):
     list_numbers.append(product)
 print("Набор произведений чисел от 1 до ", n, " в виде списка:")
 print(list_numbers)
+

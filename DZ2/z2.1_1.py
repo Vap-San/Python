@@ -11,3 +11,4 @@ sum = 0
 for digit in num.digits:
     sum += digit
 print(sum)
+
