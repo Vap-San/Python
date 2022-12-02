@@ -13,21 +13,20 @@
 # out
 # [4, 2, 4, 9]
 # 8
+
 from random import choices, randint
 
-
-def genetate_list(count):
+def generate_list(count):
     list_numbers = choices(range(1, count*randint(1,count)), k=count)
     print(list_numbers)
     return list_numbers
 
 
-def sum_odd_positions(list_numbers):
+def sum_numbers_on_odd_positions(list_numbers):
     sum=0
     for i in range(0, len(list_numbers),2):
-        print(list_numbers[i])
         sum += list_numbers[i]
     return sum
 
 
-print(sum_odd_positions(genetate_list(int(input("Введите количество элементов списка: ")))))
+print(sum_numbers_on_odd_positions(generate_list(int(input("Введите количество элементов списка: ")))))
