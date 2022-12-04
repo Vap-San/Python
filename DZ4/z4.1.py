@@ -16,8 +16,11 @@
 
 from decimal import Decimal
 
-number = Decimal(input("Введите число: "))
-accuracy = Decimal(input("Введите точность числа: "))
+def print_number_of_accuracy(number):
+    accuracy = Decimal(input("Введите точность числа: "))
+    print(number.quantize(Decimal(accuracy)))
+    return
 
-print(number.quantize(Decimal(accuracy)))
+num = Decimal(input("Введите число: "))
+print_number_of_accuracy(num)
 
