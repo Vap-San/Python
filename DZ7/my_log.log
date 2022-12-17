@@ -1,0 +1,43 @@
+17-12-2022 18:50:32 - controller - INFO - button_click - деление: 5 + 3=1.67
+17-12-2022 18:55:42 - controller - INFO - button_click - div: 6 / 7 = 0.857
+17-12-2022 21:19:37 - view - WARNING - get_value - Error! Incorrect input
+17-12-2022 21:20:04 - controller - INFO - button_click - div: 3 / 33 = 0.0909
+17-12-2022 21:53:22 - controller - INFO - button_click - sub: 4 - 5 = -1
+17-12-2022 21:56:56 - controller - INFO - button_click - sub: 7 - 8 = -1
+17-12-2022 21:57:23 - controller - INFO - button_click - mult: 6 * 4 = 24
+17-12-2022 21:58:26 - controller - INFO - button_click - div: 4 / 4 = 1
+17-12-2022 21:58:37 - controller - INFO - button_click - div: 5 / 67 = 0.0746
+17-12-2022 21:59:46 - controller - INFO - button_click - div: 5 / 6 = 0.833
+17-12-2022 22:00:22 - controller - INFO - button_click - div: 5 / 67 = 0.0746
+17-12-2022 22:00:35 - controller - INFO - button_click - div: 2 / 5 = 0.4
+17-12-2022 22:00:44 - controller - INFO - button_click - div: 567 / 344 = 1.65
+17-12-2022 22:01:42 - controller - INFO - button_click - div: (1+5j) / (3-5j) = (-0.6470588235294118+0.5882352941176471j)
+17-12-2022 22:02:04 - controller - INFO - button_click - mult: (3-5j) * (1+5j) = (28+10j)
+17-12-2022 22:09:59 - controller - INFO - button_click - sum: 4 + 7.8 = 11.8
+17-12-2022 22:10:11 - controller - INFO - button_click - sub: 23.45 - -454.45 = 478
+17-12-2022 22:10:28 - controller - INFO - button_click - mult: 345.54 * -56.6556 = -1.96E+4
+17-12-2022 22:10:48 - controller - INFO - button_click - div: 234 / -56.56 = -4.14
+17-12-2022 22:11:25 - controller - INFO - button_click - sum: (-1.2+5j) + (45.5-3j) = (44.3+2j)
+17-12-2022 22:11:39 - controller - INFO - button_click - sub: (-1.2+5j) - (45.5-3j) = (-46.7+8j)
+17-12-2022 22:11:46 - controller - INFO - button_click - mult: (45.5-3j) * (-1.2+5j) = (-39.6+231.1j)
+17-12-2022 22:11:55 - controller - INFO - button_click - div: (-1.2+5j) / (45.5-3j) = (-0.03347360827221354+0.10768305879523868j)
+17-12-2022 22:12:07 - view - WARNING - get_value - Error! Incorrect input
+17-12-2022 22:55:50 - controller - INFO - button_click - sub: (2+0j) - (2+0j) = 0j
+17-12-2022 22:56:13 - controller - INFO - button_click - div: (7+0j) / (7+0j) = (1+0j)
+17-12-2022 22:56:43 - view - WARNING - get_value_q - Error! Incorrect input
+17-12-2022 22:56:48 - view - WARNING - get_value_q - Error! Incorrect input
+17-12-2022 22:57:10 - controller - INFO - button_click - div: 3.4 / 3 = 1.13
+17-12-2022 23:00:47 - view - WARNING - get_value_complex - Error! Incorrect input
+17-12-2022 23:00:57 - controller - INFO - button_click - div: (3+0j) / (4+6j) = (0.23076923076923078-0.3461538461538462j)
+17-12-2022 23:01:11 - view - WARNING - get_value_q - Error! Incorrect input
+17-12-2022 23:01:23 - controller - INFO - button_click - div: 1 / 4 = 0.25
+17-12-2022 23:01:42 - view - WARNING - get_value_complex - Error! Incorrect input
+17-12-2022 23:01:49 - controller - INFO - button_click - mult: 0j * 0j = 0j
+17-12-2022 23:03:26 - controller - INFO - button_click - mult: 23.4 * -45.4 = -1.06E+3
+17-12-2022 23:03:58 - controller - INFO - button_click - mult: -45.4 * 23.4 = -1062.4
+17-12-2022 23:04:20 - controller - INFO - button_click - mult: 34.4 * 4 = 137.6
+17-12-2022 23:04:37 - controller - INFO - button_click - mult: (3+5j) * (65+0j) = (195+325j)
+17-12-2022 23:06:53 - controller - INFO - button_click - sub: 1 - 1 = 0
+17-12-2022 23:08:52 - controller - INFO - button_click - sub: 2 - 2 = 0
+17-12-2022 23:09:56 - controller - INFO - button_click - mult: (3+0j) * (3+0j) = (9+0j)
+17-12-2022 23:10:45 - controller - INFO - button_click - sub: 2 - 23 = -21
