@@ -1,3 +1,6 @@
+import sys
+from logg import logging
+
 num_1 = 0
 num_2 = 0
 
@@ -8,4 +11,8 @@ def init(a,b):
     num_2 = b   
 
 def do_it ():
-    return num_1 / num_2
+    if num_2 !=0:
+        return num_1 / num_2
+    else:
+        logging.warning("Error! Division by zero")
+        sys.exit("Ошибка! деление на ноль!")
